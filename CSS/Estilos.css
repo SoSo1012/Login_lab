@@ -1,0 +1,71 @@
+
+.login{
+
+     border: 1px;
+     border-radius: 5px;
+     padding: 17px;
+     width: 300px;
+     position: absolute;
+     left: 10%;
+     right: 10%;
+     transform: translate(-10%, -10%);
+     
+
+}
+@media(max-width: 500px){
+
+    .login{
+
+        width: 90%;
+        height: 90%;
+    }
+
+}
+
+fieldset{
+    
+    background-image: url("../RECURSOS/degrado.jpg");
+    background-repeat: no-repeat;
+    margin: auto;
+    width:300px;
+    display: inline-block;
+    
+
+}
+
+img{
+
+    width:100px;
+    height:100px;
+    align-content: center;
+    border:lightskyblue;
+}
+
+button{
+
+    text-decoration:none;
+    font-weight: 15;
+    font-size: 15px;
+    color:lightblue;
+    padding-top:3px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+    background-color:deeppink;
+    border-color:lightblue;
+    border-width: 2px;
+    border-style: solid;
+    border-radius:20px;    
+  
+}
+
+div.form-group{
+
+    text-align: center;
+    margin: 20px;
+}
+div.contra{
+
+    text-align: center;
+    margin: 20px;
+}
